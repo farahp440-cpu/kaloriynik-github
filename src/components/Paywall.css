@@ -1,0 +1,181 @@
+.paywall-container {
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.trust-triggers {
+  background: linear-gradient(135deg, #fff5f0, #fff9f0);
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.deadline-badge {
+  display: inline-block;
+  background: #ff4757;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.money-back {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.social-proof {
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.tariffs-container {
+  margin-bottom: 24px;
+}
+
+.tariff-card {
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.tariff-card:hover {
+  border-color: #ff6b35;
+  transform: translateY(-2px);
+}
+
+.tariff-card.selected {
+  border-color: #ff6b35;
+  background-color: #fff5f0;
+}
+
+.recommended-badge {
+  position: absolute;
+  top: -8px;
+  right: 16px;
+  background: #ff6b35;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.tariff-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.tariff-name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.tariff-price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ff6b35;
+}
+
+.tariff-duration {
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+}
+
+.ai-addon {
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ai-addon:hover {
+  border-color: #ff6b35;
+}
+
+.ai-addon.selected {
+  border-color: #ff6b35;
+  background-color: #fff5f0;
+}
+
+.ai-addon-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.ai-addon-name {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin: 0;
+}
+
+.ai-addon-price {
+  font-size: 18px;
+  font-weight: 700;
+  color: #ff6b35;
+}
+
+.ai-addon-description {
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+}
+
+.total-price {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.total-label {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.total-amount {
+  font-size: 32px;
+  font-weight: 700;
+  color: #ff6b35;
+  margin: 0;
+}
+
+.start-button {
+  width: 100%;
+  padding: 18px;
+  background: linear-gradient(135deg, #ff6b35, #f7931e);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.start-button:hover {
+  transform: translateY(-2px);
+}

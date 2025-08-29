@@ -1,0 +1,154 @@
+.referral-container {
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.referral-card {
+  background: white;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.referral-header h1 {
+  margin: 0 0 8px 0;
+  color: #333;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.referral-subtitle {
+  color: #666;
+  font-size: 16px;
+  margin: 0 0 24px 0;
+}
+
+.progress-section {
+  margin-bottom: 24px;
+}
+
+.progress-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: conic-gradient(#ff6b35 0deg, #ff6b35 calc(36deg * 0), #e0e0e0 calc(36deg * 0));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px;
+  position: relative;
+}
+
+.progress-circle::before {
+  content: "";
+  width: 80px;
+  height: 80px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.progress-text {
+  position: relative;
+  z-index: 1;
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+}
+
+.progress-label {
+  color: #666;
+  font-size: 14px;
+  margin: 0;
+}
+
+.benefits-section {
+  margin-bottom: 24px;
+}
+
+.benefits-section h3 {
+  margin: 0 0 16px 0;
+  color: #333;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.benefits-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.benefits-list li {
+  padding: 8px 0;
+  color: #666;
+  font-size: 14px;
+  position: relative;
+  padding-left: 24px;
+}
+
+.benefits-list li::before {
+  content: "🎁";
+  position: absolute;
+  left: 0;
+  font-size: 16px;
+}
+
+.referral-code-section {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.referral-code-label {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.referral-code {
+  background: white;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #333;
+  font-family: monospace;
+  margin-bottom: 16px;
+  user-select: all;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 12px;
+}
+
+.share-button, .copy-button {
+  flex: 1;
+  padding: 14px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.share-button {
+  background: #ff6b35;
+  color: white;
+}
+
+.copy-button {
+  background: #f8f9fa;
+  color: #333;
+  border: 2px solid #e0e0e0;
+}
+
+.share-button:hover, .copy-button:hover {
+  transform: translateY(-2px);
+}
